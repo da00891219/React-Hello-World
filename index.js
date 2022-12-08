@@ -4,6 +4,7 @@ var http = require("http");
 http
   .createServer(function (req, res) {
     res.write("Hello World!"); //write a response to the client
+    res.write("Can this be our Sandbox Solution?");
     res.write(
       "With Repositories, we automatically create a new sandbox for every branch, and these sandboxes are automatically connected to git."
     );
